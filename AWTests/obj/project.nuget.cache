@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "43SGR4PHerQpqoOgdCbAi3GKL2oq8zRzqSwC9KVh3Jzdgcd/juPOpJg1FJmq4pX0DGqkvcUvXuGpxOKwtCJ17w==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\brenden.colopy\\Documents\\CHCTraining\\TrainingApp\\AWTests\\AWTests.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\brenden.colopy\\.nuget\\packages\\castle.core\\4.4.1\\castle.core.4.4.1.nupkg.sha512",
+    "C:\\Users\\brenden.colopy\\.nuget\\packages\\microsoft.codecoverage\\16.5.0\\microsoft.codecoverage.16.5.0.nupkg.sha512",
+    "C:\\Users\\brenden.colopy\\.nuget\\packages\\microsoft.net.test.sdk\\16.5.0\\microsoft.net.test.sdk.16.5.0.nupkg.sha512",
+    "C:\\Users\\brenden.colopy\\.nuget\\packages\\nsubstitute\\4.3.0\\nsubstitute.4.3.0.nupkg.sha512",
+    "C:\\Users\\brenden.colopy\\.nuget\\packages\\nunit\\3.12.0\\nunit.3.12.0.nupkg.sha512",
+    "C:\\Users\\brenden.colopy\\.nuget\\packages\\nunit3testadapter\\3.16.1\\nunit3testadapter.3.16.1.nupkg.sha512",
+    "C:\\Users\\brenden.colopy\\.nuget\\packages\\system.threading.tasks.extensions\\4.3.0\\system.threading.tasks.extensions.4.3.0.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,84 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\brenden.colopy\\Documents\\CHCTraining\\TrainingApp\\AWTests\\AWTests.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\brenden.colopy\\Documents\\CHCTraining\\TrainingApp\\AWProducts\\AWProducts.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\brenden.colopy\\Documents\\CHCTraining\\TrainingApp\\AWProducts\\AWProducts.csproj",
+        "projectName": "AWProducts",
+        "projectPath": "C:\\Users\\brenden.colopy\\Documents\\CHCTraining\\TrainingApp\\AWProducts\\AWProducts.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\Users\\brenden.colopy\\Documents\\CHCTraining\\TrainingApp\\AWTests\\AWTests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\brenden.colopy\\Documents\\CHCTraining\\TrainingApp\\AWTests\\AWTests.csproj",
+        "projectName": "AWTests",
+        "projectPath": "C:\\Users\\brenden.colopy\\Documents\\CHCTraining\\TrainingApp\\AWTests\\AWTests.csproj",
+        "packagesPath": "C:\\Users\\brenden.colopy\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\brenden.colopy\\Documents\\CHCTraining\\TrainingApp\\AWTests\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\brenden.colopy\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net472"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net472": {
+            "targetAlias": "net472",
+            "projectReferences": {
+              "C:\\Users\\brenden.colopy\\Documents\\CHCTraining\\TrainingApp\\AWProducts\\AWProducts.csproj": {
+                "projectPath": "C:\\Users\\brenden.colopy\\Documents\\CHCTraining\\TrainingApp\\AWProducts\\AWProducts.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net472": {
+          "targetAlias": "net472",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.5.0, )"
+            },
+            "NSubstitute": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.12.0, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[3.16.1, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

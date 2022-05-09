@@ -1,0 +1,9 @@
+C:\Users\brenden.colopy\Documents\CHCTraining\TrainingApp\BusinessLogic\bin\Debug\BusinessLogic.dll
+C:\Users\brenden.colopy\Documents\CHCTraining\TrainingApp\BusinessLogic\bin\Debug\BusinessLogic.pdb
+C:\Users\brenden.colopy\Documents\CHCTraining\TrainingApp\BusinessLogic\bin\Debug\AWProducts.dll
+C:\Users\brenden.colopy\Documents\CHCTraining\TrainingApp\BusinessLogic\bin\Debug\AWProducts.pdb
+C:\Users\brenden.colopy\Documents\CHCTraining\TrainingApp\BusinessLogic\obj\Debug\BusinessLogic.csproj.AssemblyReference.cache
+C:\Users\brenden.colopy\Documents\CHCTraining\TrainingApp\BusinessLogic\obj\Debug\BusinessLogic.csproj.CoreCompileInputs.cache
+C:\Users\brenden.colopy\Documents\CHCTraining\TrainingApp\BusinessLogic\obj\Debug\BusinessLogic.csproj.CopyComplete
+C:\Users\brenden.colopy\Documents\CHCTraining\TrainingApp\BusinessLogic\obj\Debug\BusinessLogic.dll
+C:\Users\brenden.colopy\Documents\CHCTraining\TrainingApp\BusinessLogic\obj\Debug\BusinessLogic.pdb

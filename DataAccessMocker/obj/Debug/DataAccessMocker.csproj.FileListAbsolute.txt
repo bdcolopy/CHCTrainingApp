@@ -1,0 +1,9 @@
+C:\Users\brenden.colopy\Documents\CHCTraining\TrainingApp\DataAccessMocker\bin\Debug\DataAccessMocker.dll
+C:\Users\brenden.colopy\Documents\CHCTraining\TrainingApp\DataAccessMocker\bin\Debug\DataAccessMocker.pdb
+C:\Users\brenden.colopy\Documents\CHCTraining\TrainingApp\DataAccessMocker\bin\Debug\AWProducts.dll
+C:\Users\brenden.colopy\Documents\CHCTraining\TrainingApp\DataAccessMocker\bin\Debug\AWProducts.pdb
+C:\Users\brenden.colopy\Documents\CHCTraining\TrainingApp\DataAccessMocker\obj\Debug\DataAccessMocker.csproj.AssemblyReference.cache
+C:\Users\brenden.colopy\Documents\CHCTraining\TrainingApp\DataAccessMocker\obj\Debug\DataAccessMocker.csproj.CoreCompileInputs.cache
+C:\Users\brenden.colopy\Documents\CHCTraining\TrainingApp\DataAccessMocker\obj\Debug\DataAccessMocker.csproj.CopyComplete
+C:\Users\brenden.colopy\Documents\CHCTraining\TrainingApp\DataAccessMocker\obj\Debug\DataAccessMocker.dll
+C:\Users\brenden.colopy\Documents\CHCTraining\TrainingApp\DataAccessMocker\obj\Debug\DataAccessMocker.pdb

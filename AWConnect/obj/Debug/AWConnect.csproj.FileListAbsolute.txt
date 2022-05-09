@@ -1,0 +1,9 @@
+C:\Users\brenden.colopy\Documents\CHCTraining\TrainingApp\AWConnect\bin\Debug\AWConnect.dll
+C:\Users\brenden.colopy\Documents\CHCTraining\TrainingApp\AWConnect\bin\Debug\AWConnect.pdb
+C:\Users\brenden.colopy\Documents\CHCTraining\TrainingApp\AWConnect\bin\Debug\AWProducts.dll
+C:\Users\brenden.colopy\Documents\CHCTraining\TrainingApp\AWConnect\bin\Debug\AWProducts.pdb
+C:\Users\brenden.colopy\Documents\CHCTraining\TrainingApp\AWConnect\obj\Debug\AWConnect.csproj.AssemblyReference.cache
+C:\Users\brenden.colopy\Documents\CHCTraining\TrainingApp\AWConnect\obj\Debug\AWConnect.csproj.CoreCompileInputs.cache
+C:\Users\brenden.colopy\Documents\CHCTraining\TrainingApp\AWConnect\obj\Debug\AWConnect.csproj.CopyComplete
+C:\Users\brenden.colopy\Documents\CHCTraining\TrainingApp\AWConnect\obj\Debug\AWConnect.dll
+C:\Users\brenden.colopy\Documents\CHCTraining\TrainingApp\AWConnect\obj\Debug\AWConnect.pdb
