@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 
 namespace BusinessLogic
 {
+    // interfaces and the classes that implement them should not be in the same assembly. interfaces are best defined in a common/shared assembly
     public interface IBusiness
     {
         IEnumerable<ProductCategory> GetProductCategories();
