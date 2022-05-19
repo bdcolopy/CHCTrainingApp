@@ -12,6 +12,8 @@ namespace AWConnect
     public class InjectedHandler : ISalesData
     {
         private static string connection = ConfigurationManager.ConnectionStrings["ConnectStrDB"].ConnectionString;
+
+        // I commented in another file about not using these objects at a class level
         private static SqlCommand cmd;
         private static SqlDataReader reader;
         private static SqlConnection con;
@@ -41,6 +43,7 @@ namespace AWConnect
 
             while (reader.Read())
             {
+                // use C# type names instead of CLR names, so in this instance int.Parse instead of Int32.Parse
                 product = new Product(Int32.Parse(reader["ProductID"].ToString()), Int32.Parse(reader["ProductSubcategoryID"].ToString()), reader["Name"].ToString(), reader["Color"].ToString(), decimal.Parse(reader["ListPrice"].ToString()));
             }
             DisposeClose();
@@ -50,6 +53,8 @@ namespace AWConnect
         public List<Product> GetProducts(int SubCatId)
         {
             string query;
+
+            // you could use this if check to determine if you need to append the predicate onto the common select statement, instead of having and if/else with identical select statements
             if (SubCatId == 0)
                 query = "Select ProductID, ProductSubcategoryID, Name, Color, ListPrice From Production.Product";
             else 
@@ -61,7 +66,7 @@ namespace AWConnect
             while (reader.Read())
             {
                 string nullColor = reader["Color"].ToString();
-                if (nullColor == "") nullColor = "No Color";
+                if (nullColor == "") nullColor = "No Color";    // CHC has extension methods IsBlank and IsNotBlank that you'll want to use instead of == ""
                 product = new Product(Int32.Parse(reader["ProductID"].ToString()), Int32.Parse(reader["ProductSubcategoryID"].ToString()), reader["Name"].ToString(), nullColor, decimal.Parse(reader["ListPrice"].ToString()));
                 pList.Add(product);
             }
@@ -99,7 +104,7 @@ namespace AWConnect
             while (reader.Read())
             {
                 subCategory = new ProductSubCategory(Int32.Parse(reader["ProductSubcategoryID"].ToString()), Int32.Parse(reader["ProductCategoryID"].ToString()), reader["Name"].ToString());
-                psc.Add(subCategory);
+                psc.Add(subCategory);   // really no need for the subCategory variable, as you could have the new statement above inside this Add statement - although sometimes it helps with readability to split it out like you did
             }
             DisposeClose();
             return psc;

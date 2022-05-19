@@ -29,10 +29,10 @@ namespace BusinessLogic
         public IEnumerable<Product> GetProducts(int subCategoryId, decimal? lowPrice = null, decimal? highPrice = null)
         {
             var products = salesData.GetProducts(subCategoryId);
-            if (lowPrice > highPrice) throw new ArgumentOutOfRangeException();
-            if (lowPrice != null)
+            if (lowPrice > highPrice) throw new ArgumentOutOfRangeException();  // checks like this should be the very first thing you do. why call GetProducts if you end up throwing an exception?
+            if (lowPrice != null)   // should use lowPrice.HasValue
             {
-                products = products.FindAll(x => x.Price >= lowPrice);
+                products = products.FindAll(x => x.Price >= lowPrice);  // I'm surprised you didn't get a compile error without using lowPrice.Value - which you should use
             }
             if (highPrice != null)
             {
